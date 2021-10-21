@@ -2,19 +2,39 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16;
 }
+
+@keyframes myfirst{
+from {background: yellow;}
+to {background: green;}
+}
+
+@keyframes ruota {
+   from {transform:rotate(0deg); left:0;}
+   to {transform:rotate(360deg); left:100%;}
+}
+
 .link{
     border: 5px outset black;
     text-align: center;
 }
 div{
-    border: 5px outset black;
+    border: 5px inset green;
     text-align: center;
     margin-top: 24;
     margin-bottom: 24;
+    animation-duration:5s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    animation-name:myfirst;
+    animation-duration:4s
 }
 h1{
     font-size: 30;
     color: blueviolet;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+    animation-name:ruota;
 
 }
 
