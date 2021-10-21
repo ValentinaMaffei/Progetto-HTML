@@ -1,1 +1,61 @@
 <doctype html>
+    <html>
+        <head>
+            <title>paginaGiulia</title>
+            <meta name="author" content="Giulia">
+            <link rel="stylesheet" type="text/css" href="paginaGiuliaGrafica.css">
+        </head>
+        <body>
+            <a class="link" href="">Valentina</a>
+            <a class="link" href="">Francesco</a>
+
+            <h1>Crea la tua prima app con Andrid Studio</h1>
+            <p>Android studio è un ambiente di sviluppo con gli strumenti necessari per programmare e creare app sul sistema operativo Android.<br/>Si può installare e usare gratuitamente. Dispone di un editor IDE con layout visuale, funzione di debug e consente la personalizzazione dei tool SDK per lo sviluppo in Java e NDK (Natural Development Kit) per lo sviluppo in C/C++.</p>
+
+            <ol>
+                <li><a href=#scaricare>Scaricare e installare Android Studio</a></li>
+                <li><a href=#creare>Creare un nuovo proggetto</a></li>
+                <li><a href=#file>Quali sono i file principlai di un proggetto android studio?</a></li>
+            </ol>   
+
+            <h3><a nome="scaricare">Scaricare e installare Android studio</a></h3>
+            <p>Per poter scaricare e installare Android Studio vai sul <a href="https://developer.android.com/studio?gclid=CjwKCAjwn8SLBhAyEiwAHNTJbSBSlxxPoeetvFpWu6QBeCwwDBf0WpubVhGrJ8JCDNmmGNYLxDPB3xoCN-MQAvD_BwE&gclsrc=aw.ds">sito ufficiale</a> e clicca su Download Android Studio.</p>
+            <img src="img/downloadAS.png"/>
+            <p>Nella schermata successiva accetta le condizioni di servizio. Poi clicca su Donwload Android Studio.</p>
+            <img src="img/accetta condizioni.png">
+            <p>Una volta finito il Download clicca sul file scaricato, dovrebbe apparirti questa schermata, quindi trascina android studio tra le tue applicazioni di sistema. Finito il caricamento visualizzerete Android Studio tra le vostre app.</p>
+            <img src="img/trascina e caricamento.png">
+
+            <h3><a nome="creare">Creare un nuovo proggetto</a></h3>
+            <p>Per creare un nuovo proggetto clicca su new project ti apparirà una schermata dove in ordine abbiamo:</p>
+
+            <ol>
+                <li>Name, assegna un nome al proggetto</li>
+                <li>Pakage name, viene autocompletato</li>
+                <li>Save location, percorso sul quale viene salvato il proggetto</li>
+                <li>Language, qui puoi scegliere se programmare in kotlin o java. </li>
+                <li>minimum SDK, puoi lasciare i parametri predefiniti. Vedremo in seguito a cosa servono.</li>
+            </ol>
+
+            <img src="img/crea proggetto.png">
+            <p>Fatto questo per completare la creazione del nuovo proggetto imposta la tipologia di Activity iniziale come vuota, ossia la tua ipotetica prima pagina.</p>
+            <img src="img/empty activity.png">
+            <p>Una volta confermato al termine del proccesso si aprirà la finestra del proggetto</p>
+            <img src="img/Senza nome.png">
+
+            <h3><a nome="file">File principlai di un proggetto android studio</a></h3>
+            <p>Ora che abbiamo creato il nostro proggetto andiamo a vedere quali sono i file principali</p>
+            <ul>
+                <li>Activity: tipo di componente che fornisce un'interfaccia utente (UI). Un app può essere formata da un activity o più di una, in questo caso devono essere collegate tra loro per formare un esperienza all'utente.  </li>
+                <li>MainActivity (è un activity): inizia quando l’utente clicca sull’app e la fa partire, l'utente può  essere indirizzato all’activity main anche tramite una notifica oppure tramite un’altra app. 
+                    Percorso per raggiungerla App → package name → MainActivity  questa è l'attività principale. Quando si esegue l’app il sistema genere una nuova MainActivity ne istanzia
+                    una nuova.</li>
+                <li>Activity_main.xml: file xml definisce il layout per la UI dell'attività.
+                    Percorso per raggiungere il file: App → res → layout → activity_main.xml questo.</li>
+                <li>AndroidManifest.xml: descrive le caratteristiche fondamentali dell’app e definisce ciascuno dei suoi componenti.</li>
+                <li>Gradle Script : build.gradle esistono due file di questo tipo, uno dedicato al progetto e l’altro per il modulo (ogni modulo ha il proprio file, nei progetti semplici in genere abbiamo solo un modulo). </li>
+
+        </body>
+    </html>
+            
+
