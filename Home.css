@@ -1,1 +1,33 @@
+body {
+	overflow-x: hidden;
+	margin: 0 auto;
+	width: 98%;
+	font-family: 'Source Sans Pro', sans-serif;
+}
 
+.link {
+    text-decoration: none;
+    color: #000;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.img-terre {
+    width: 800px;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.container-text {
+    text-align: center;
+}
