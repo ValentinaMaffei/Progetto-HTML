@@ -1,0 +1,149 @@
+@keyframes changeColorDiv{
+    from {background: yellow;}
+    to {background: green;}
+    }
+    
+    @keyframes changeColorTitle{
+        from {color: black;}
+        to {color: maroon;}
+    }
+    
+    @keyframes ruota {
+       from {transform:rotate(0deg); left:0;}
+       to {transform:rotate(360deg); left:100%;}
+    }
+    
+    @keyframes ruotaInfinita {
+        from {transform:rotate(0deg); left:0;}
+        to {transform:rotate(360deg); left:100%;}
+     }
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16;
+    cursor:url(http://www.javascriptkit.com/dhtmltutors/cursor-hand.gif), auto;
+    text-shadow: 5px 5px 5px coral;
+}
+
+body{
+    background-image: url(img/sfondo.jpg);
+ }
+
+ .linkDiv{
+    margin-left: 64;
+ }
+     
+.link{
+    border: 5px outset;
+    border-color: chocolate;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
+    position: sticky;
+    top: 10;
+    width: 100%;
+}
+
+.div{
+    width: 1100;
+    border: 5px dashed green;
+    text-align: center;
+    margin-top: 24;
+    margin-left: 64;
+    margin-right: 64;
+    margin-bottom: 24;
+    animation-duration:5s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    animation-name:changeColorDiv;
+    animation-duration:4s;
+}
+
+.img{
+   padding: 24;
+   
+}
+
+h1{
+    text-align: center;
+    width: 1100;
+    margin-left: 64;
+    margin-right: 64;
+    border: 5px dashed yellow;
+    font-size: 30;
+    color: blueviolet;
+    animation-duration:5s;
+    animation-iteration-count:5s;
+    animation-name:ruota;
+    font-family: Georgia; /* Famiglia di caratteri */
+    line-height: 1.1em; /* Altezza della riga */ 
+    color: yellow; /* Colore del testo */ 
+    font-weight:bold; /* Grassetto */
+    font-size: 64px; /* Dimensione caratteri */
+    text-shadow:0px 0px 0
+    rgb(212, 212, 212),1px 1px 0
+    rgb(184, 184, 184),2px 2px 0
+    rgb(156, 156, 156),3px 3px 0
+    rgb(128, 128, 128), 4px 4px 0
+    rgb(100,100,100),5px 5px 4px
+    rgba(0,0,0,0.45),5px 5px 1px
+    rgba(0,0,0,0.5),0px 0px 4px
+    rgba(0,0,0,.2); /* Ombreggiatura del testo per il 3D */; 
+}
+
+h3{
+    font-size: 25;
+    color: black;
+    animation-duration:5s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    animation-name:changeColorTitle;
+    animation-duration:4s;
+}
+
+ol{
+    margin-left: 64;
+    text-align: left; 
+}
+
+ul{
+    margin-right: 64;
+    font-family: bold;
+}
+
+p{
+    padding: 24;
+    text-align: center; 
+}
+
+audio{
+    padding: 24;
+    margin-left: 64;
+}
+
+.fine{text-align: center;
+    font-size: 40;
+    color: chocolate;
+    font-family: bold ,Helvetica, sans-serif;;
+    animation-duration:5s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    animation-name:ruotaInfinita;
+    animation-duration:4s;
+    line-height: 1.1em; /* Altezza della riga */ 
+    font-weight:bold; /* Grassetto */
+    font-size: 64px; /* Dimensione caratteri */
+    text-shadow:0px 0px 0
+    rgb(212, 212, 212),1px 1px 0
+    rgb(184, 184, 184),2px 2px 0
+    rgb(156, 156, 156),3px 3px 0
+    rgb(128, 128, 128), 4px 4px 0
+    rgb(100,100,100),5px 5px 4px
+    rgba(0,0,0,0.45),5px 5px 1px
+    rgba(0,0,0,0.5),0px 0px 4px
+    rgba(0,0,0,.2); /* Ombreggiatura del testo per il 3D */;
+}

@@ -1,0 +1,141 @@
+body {
+	overflow-x: hidden;
+	margin: 0 auto;
+	width: 98%;
+	font-family: 'Source Sans Pro', sans-serif;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+  
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.link {
+    text-decoration: none;
+    color: #000;
+    cursor: crosshair;
+}
+
+@keyframes ruota {
+    from{transform:rotate(0deg);left:0;}
+    to{transform:rotate(360deg);left:100%;}
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color:#e73c7e;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-name: ruota;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    animation: color-change 1s infinite;
+}
+
+@keyframes color-change {
+    0% { color: black; }
+    50% { color:#e73c7e; }
+    100% { color: purple; }
+  }
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+.img-terre {
+    width: 800px;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.text-terre {
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+.container-text {
+    text-align: center;
+    margin: 50px;
+    border-radius: 3%;
+    border-color: #000;
+}
+
+.img-cinque-terre {
+    width: 800px;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.img {
+    
+    display: block;
+    text-align: center; 
+    margin: 0 auto;
+    height: 600px;
+    width: 80px;
+    animation: 
+    nudge 5s linear infinite alternate;
+    border-radius: 100%;
+}
+
+@keyframes nudge {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+    
+    50% {
+      transform: translate(150px, 0);
+    }
+    
+    80% {
+      transform: translate(-150px, 0);
+    }
+}
+
+
+  form {
+    text-align: center;
+    animation: color-change 1s infinite;
+}
+
+.form-text{
+    font-size: 40px;
+}
+
+h5 {
+    text-align: center;
+    font-size: 100px;
+}
