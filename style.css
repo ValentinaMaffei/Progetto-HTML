@@ -1,9 +1,28 @@
 body {
 	background-image:  url(immagini/200w.webp);
-	background-size: var(.webp);
+	background-size: var(200);
 
 	height: auto;
 	padding: 0%;
 	margin: 0%;
 	
   }
+  *{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22;
+}
+div {
+	padding-top: 50px;
+	padding-right: 30px;
+	padding-bottom: 50px;
+	padding-left: 80px;
+	background-color: red;
+    animation-name: example;
+    animation-duration: 30s;
+	animation-iteration-count:infinite;
+  }
+  @keyframes example {
+	from {background-color: red;}
+	to {background-color: yellow;}
+  }
+  
