@@ -1,0 +1,9 @@
+body {
+	background-image:  url(immagini/200w.webp);
+	background-size: var(.webp);
+
+	height: auto;
+	padding: 0%;
+	margin: 0%;
+	
+  }
