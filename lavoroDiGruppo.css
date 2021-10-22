@@ -1,1 +1,22 @@
 
+*{
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 16;
+}
+
+body{
+    background-image: url(img/sfondoDoraemon.jpg);
+ }
+
+h1{
+    font-size: 30;
+    color: deeppink;
+}
+
+h3{
+    font-size: 20;
+    color: greenyellow;
+}
+
+
+    
